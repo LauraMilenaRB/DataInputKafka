@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package eci.edu.co.protos;
+
+import "google/protobuf/timestamp.proto";
+
+message TransactionCreated {
+  double value = 1;
+  string currency = 2;
+  string type = 3;
+  string category = 4;
+  string correlationId = 5;
+  google.protobuf.Timestamp created = 6;
+}
+
+
+
