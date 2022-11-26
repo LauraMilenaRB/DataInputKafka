@@ -6,6 +6,8 @@ Escuela Colombiana de ingeniería Julio Garavito
 
 laura.ramos-b@mail.escuelaing.edu.co
 
+https://youtu.be/xjlQiVb_aTg
+
 ### I. Resumen
 Hoy en día las aplicaciones modernas utilizan diferentes fuentes de información como redes sociales, bases de datos relacionales, 
 métricas de uso de aplicación, etc, esto genera altos volúmenes de datos que deben ser procesados con el objetivo de unificar 
