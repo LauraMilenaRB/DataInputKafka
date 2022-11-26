@@ -18,8 +18,8 @@ object ServiceBucketAws extends ForUpdateBucket {
   private val amazonS3 = credentialsS3
 
   private def credentialsS3 : Either[Throwable, AmazonS3Client] = {
-    val AWS_ACCESS_KEY = "AKIAVFHJMDPBXGTIGC64"
-    val AWS_SECRET_KEY = "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"
+    val AWS_ACCESS_KEY = "xxxxxxxxxxxxx"
+    val AWS_SECRET_KEY = "xxxxxxxxxxxxx"
     try {
       val awsCredentials = new BasicAWSCredentials(AWS_ACCESS_KEY, AWS_SECRET_KEY)
       val amazonS3Client = new AmazonS3Client(awsCredentials)
