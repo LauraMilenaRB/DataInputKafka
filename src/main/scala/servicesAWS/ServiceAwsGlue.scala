@@ -16,8 +16,8 @@ object ServiceAwsGlue extends ForJobETL{
   private val awsGlue = credentialsAwsGlue
 
   private def credentialsAwsGlue : Either[Throwable, AWSGlue] = {
-    val AWS_ACCESS_KEY = "AKIAVFHJMDPBWQJUS5SP"
-    val AWS_SECRET_KEY = "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"
+    val AWS_ACCESS_KEY = "xxxxxxxxx"
+    val AWS_SECRET_KEY = "xxxxxxxxx"
     try {
       val awsCredentials = new BasicAWSCredentials(AWS_ACCESS_KEY, AWS_SECRET_KEY)
       val awsGlueClient = AWSGlueClientBuilder.standard().withCredentials(new AWSStaticCredentialsProvider(awsCredentials)).withRegion("us-east-1").build()
