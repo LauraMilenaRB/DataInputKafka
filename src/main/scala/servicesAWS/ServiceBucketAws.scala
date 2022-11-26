@@ -64,7 +64,6 @@ object ServiceBucketAws extends ForUpdateBucket {
             Left(e)
         } finally {
           file.delete()
-
         }
       case Left(e) => LOGGER.info("Exception: " + e.toString)
         Left(e)

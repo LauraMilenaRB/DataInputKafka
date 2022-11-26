@@ -16,6 +16,9 @@ object Constants {
   )
 
   val API_URL = Map(
+    "https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-I-Procesos-de-Compra-P-blica/f789-7hwg" -> "https://www.datos.gov.co/resource/f789-7hwg.json",
+    "https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-II-Proveedores-Registrados/qmzu-gj57" -> "https://www.datos.gov.co/resource/qmzu-gj57.json",
+    "https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-II-Procesos-de-Contrataci-n/p6dx-8zbt" -> "https://www.datos.gov.co/resource/p6dx-8zbt.json",
     "https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-Integrado/rpmr-utcd" -> "https://www.datos.gov.co/resource/rpmr-utcd.json" ,
     "https://www.datos.gov.co/Gastos-Gubernamentales/Tienda-Virtual-del-Estado-Colombiano-Consolidado/rgxm-mmea" -> "https://www.datos.gov.co/resource/rgxm-mmea.json",
   )
